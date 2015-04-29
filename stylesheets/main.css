@@ -158,6 +158,14 @@ input, select {
     vertical-align: middle;
 }
 
+.clickcard-container{
+    display: inline-block;
+    float: right;
+    height: 28px;
+    width: 20%;
+    position: relative;
+
+}
 /*====================================================
     ALIGNING
 ====================================================*/
@@ -204,6 +212,7 @@ input, select {
     background-size: auto;
     display: inline-block;
     padding: 0 10px;
+    margin-left: 10px;
     border: 1px solid transparent;
     height: 16px;
     width: 16px;
@@ -255,15 +264,37 @@ input, select {
     box-shadow: none;
 }
 
+/*====================================================
+    CLICKCARD
+====================================================*/
+.clickcard-list {
+    width: 200px;
+    display: inline-block;
+    float: left;
 
+}
 
+.clickcard-list li{
+    display: inline-block;
+    margin-left: 5px;
+}
 
+.upload-button{
+    box-sizing: border-box;
+    position: relative;
+}
 
+.alarm-bell{
+    height: 20px;
+    float: right;
+    width: 20px;
+    text-align: center;
+}
 
-
-
-
-
+.upload-clickcard{
+    display: inline-block;
+    position: relative;
+}
 
 
 
