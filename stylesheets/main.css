@@ -153,12 +153,20 @@ input, select {
 .searchbar-container{
     position: relative;
     display: inline-block;
-    height: 25px;
-    width: 30%;
-    max-width: 500px;
+    height: 28px;
+    width: 45%;
     vertical-align: middle;
-
 }
+
+/*====================================================
+    ALIGNING
+====================================================*/
+.middle-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /*====================================================
     LOGO/BUTTONS
 ====================================================*/
@@ -179,10 +187,10 @@ input, select {
     float: left;
     width: 72px;
     height: 30px;
-    border: 1px solid #FF74FB;
+    border: none;
 }
 
-.button {
+.logo-button {
     background-image: url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflDqEBst.webp);
     background-position-x: -279px;
     background-position-y: -391px;
@@ -194,7 +202,7 @@ input, select {
     background-clip: initial;
     background-color: initial;
     background-size: auto;
-    display: block;
+    display: inline-block;
     padding: 0 10px;
     border: 1px solid transparent;
     height: 16px;
@@ -208,19 +216,31 @@ input, select {
 .searchbar-form{
     float: left;
     height: 100%;
-    width: 85%;
+    width: 87%;
 }
 
 .searchbar{
     box-sizing: border-box;
     float: left;
     height: 100%;
-    max-width: 600px;
     width: 100%;
 }
 
 .search-button{
-    background-image: url("assets/images/YouTube-search-button.png");
+    float: left;
+    height: 100%;
+    width: 13%;
+}
+
+.mag-glass{
+    display: block;
+    border: none;
+    padding: 0;
+    opacity: .6;
+    text-indent: -10000px;
+    background-image: url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflDqEBst.webp);
+    background-position-x: -100px;
+    background-position-y: -351px;
     background-size: auto;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
@@ -229,13 +249,11 @@ input, select {
     background-clip: initial;
     background-color: initial;
     background-size: auto;
-    box-sizing: border-box;
-    display: inline-block;
-    float: left;
-    height: 100%;
-    width: 15%;
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+    box-shadow: none;
 }
-
 
 
 
